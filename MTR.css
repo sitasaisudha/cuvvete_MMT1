@@ -1,7 +1,6 @@
 body{
     background-color: #93e99f;
 }
-
 @media screen and (min-width:300px){
    
 
@@ -123,7 +122,7 @@ body{
    height: 200px;
    width: 350px;
    margin-bottom: 100px;
-   border: 1px solid black;
+   
    
 }
 
@@ -166,6 +165,7 @@ body{
 .bigdiv .c i{
     font-size: 35px;
 }
+
 #smalldiv{
     align-self: center;
 }
@@ -259,8 +259,11 @@ body{
         width: 100px;
         border-radius: 50%;
     }
-    .container2  button i{
-        font-size: 70px;
+    .l1 i{
+        font-size: 50px;
+    }
+    #l2 i{
+        font-size: 50px;
     }
 
     
