@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="MTR.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <center>
+
+   
+    <header>
+      <!-- <h1 class="item" align="center" style="font-size: 50px;">  Rock Paper Scissors </h1> -->
+      <div class="container" align="center">
+        <h1 class="item"   style="color: white;">  
+          <li>ROCK</li>
+          <li>PAPER </li>
+          <li>SCISSORS </li>
+        </h1>
+        <h3 class="item" id="it">Your score : <span id="u_s"> <h1></h1> </span></h3>
+        <h3 class="item" id="it">PC score : <span id="c_s">  </span></h3>
+      </div>
+    </header>
+  
+
+    <div class="middle" id="middle">
+     
+    
+        <div class="container2">
+          <div class="l1">
+            <button class="btn" id="btn1" onclick="verify(0)">
+              <i
+                class="fas fa-hand-rock"
+                style="font-size: 48px; color: black"
+              ></i>
+            </button>
+            <button class="btn" id="btn2" onclick="verify(1)">
+              <i
+                class="fas fa-hand-paper"
+                style="font-size: 48px; color: black"
+              ></i>
+            </button>
+          </div>
+
+          <div class="l2">
+            <button class="btn" id="btn3" onclick="verify(2)">
+              <i
+                class="fas fa-hand-scissors"
+                style="font-size: 48px; color: black"
+              ></i>
+            </button>
+          </div>
+        </div>
+    
+    </div>
+
+    <section>
+      <!-- <div class="foot"> -->
+      <div class="rules" id="rls">
+        <button id="into">
+          <i class="fa fa-close" style="font-size: 48px; color: white"></i>
+        </button>
+
+        <ul class="list">
+          <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+          <li>Agree ahead of time whether you'll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+          <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+          <li>If both players lay down the same hand, each player lays down another hand</li>
+          
+        </ul>
+      </div>
+      
+      <button id="rbtn">Rules</button>
+     
+    
+    
+ </section>
+
+</center>
+
+    <script src="MTR.js"></script>
+  </body>
+</html> 
