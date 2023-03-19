@@ -1,0 +1,400 @@
+body{
+    background-color: #93e99f;
+}
+@media screen and (min-width:300px){
+   
+
+
+#code{
+    width: 350px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    border: 1px solid white;
+    border-radius: 15px;
+    
+}
+#it{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 7px;
+}
+.container li{
+    list-style: none;
+}
+.container span{
+    height: 35px;
+    width: 35px;
+ 
+    font-size: 20px;
+}
+.container2{
+    margin-top: 100px;
+    height: 200px;
+    width: 300px;
+    display: flex;
+   flex-direction: column;
+   /* border: 1px solid black; */
+   
+
+}
+
+.l1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.l2{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 15px solid black;
+}
+/* .btn i{
+    font-size: 20px;
+} */
+#btn1{
+    border: 5px solid rgb(214, 57, 214);
+
+}
+#btn2{
+    border: 5px solid rgb(57, 183, 214);
+}
+#btn3{
+    border: 5px solid rgb(214, 128, 57);
+}
+#btn1,#btn2,#btn3 i{
+    font-size: 30px;
+}
+/* .foot{
+   margin-top: 0px;
+} */
+.rules{
+    height: 250px;
+    width: 290px;
+    float: right;
+    background-color: green;
+    border: 10px solid white;
+    border-radius: 15px;
+}
+.rules li{
+    list-style-type: square;
+   color: yellow;
+}
+.rules #into{
+    float: right;
+    float: top;
+    margin-bottom: 30px;
+    background-color: red;
+
+}
+#rbtn{
+    position: absolute;
+    top: 510px;
+    right: 100px;
+    margin-top: 100px;
+    float: right;
+    /* margin-left: 700px; */
+}
+.rules{
+    position: absolute;
+   top: -100rem;
+   
+}
+.rules.active{
+    top: 330px;
+    left: 100px;
+    float: right;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+   height: 200px;
+   width: 350px;
+   margin-bottom: 100px;
+   border: 1px solid black;
+   
+}
+
+
+.bigdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    height: 200px;
+    width: 340px;
+    /* border: 2px solid red; */
+}
+.bigdiv h1{
+    align-self: center;
+}
+.c{
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;  
+    border: 15px solid rgb(214, 128, 57);
+}
+.bigdiv .u{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 15px solid green;
+    /* box-shadow: 10px 10px 10px 10px; */
+    box-shadow: 0 0 0 7px #65e175;
+    box-shadow: 0 0 0 14px #93e99f;
+
+}
+.bigdiv i{
+    font-size: 48px;
+}
+.bigdiv .u i{
+    font-size: 55px;
+}
+.bigdiv .c i{
+    font-size: 35px;
+}
+#smalldiv{
+    align-self: center;
+}
+#replay,#nxt,#rbtn{
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: rgb(152, 240, 155);
+    border: 1px solid white;
+    color: white;
+   
+}
+#rbtn:hover{
+    background-color: green;
+}
+#replay:hover{
+    background-color: green;
+}
+#nxt:hover{
+    background-color: green;
+}
+.bigdiv h1{
+    font-size: 20px;
+}
+#h{
+    font-size: 40px;
+    padding: 20px;
+}
+
+
+}
+@media screen and (min-width:600px){
+   
+    .container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 900px;
+        border: 1px solid white;
+        border-radius: 15px;
+        
+    }
+    #it{
+        height: 70px;
+        width: 100px;
+        background-color: white;
+        border-radius: 7px;
+    }
+    .container li{
+        list-style: none;
+    }
+    .container span{
+        height: 35px;
+        width: 35px;
+     
+        font-size: 40px;
+    }
+    .container2{
+        margin-top: 100px;
+        height: 200px;
+        width: 500px;
+        display: flex;
+       flex-direction: column;
+       /* border: 1px solid black; */
+       
+    
+    }
+    #l1{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 2px solid red;
+    
+    }
+    #l2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 15px solid black;
+    }
+    .l1,.l2{
+        width: 500px;
+    }
+    .container2  button{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .container2  button i{
+        font-size: 70px;
+    }
+
+    
+    #btn1{
+        border: 15px solid rgb(214, 57, 214);
+    
+    }
+    #btn2{
+        border: 15px solid rgb(57, 183, 214);
+    }
+    #btn3{
+        border: 15px solid rgb(214, 128, 57);
+    }
+    /* .foot{
+       margin-top: 0px;
+    } */
+    .rules{
+        height: 250px;
+        width: 290px;
+        float: right;
+        background-color: green;
+        border: 10px solid white;
+        border-radius: 15px;
+    }
+    .rules li{
+        list-style-type: square;
+       color: yellow;
+    }
+    .rules #into{
+        float: right;
+        float: top;
+        margin-bottom: 30px;
+        background-color: red;
+    
+    }
+    #rbtn{
+        position: absolute;
+        top: 580px;
+        right: 100px;
+        margin-top: 100px;
+        float: right;
+        /* margin-left: 700px; */
+    }
+    .rules{
+        position: absolute;
+       top: -100rem;
+       
+    }
+    .rules.active{
+        top: 400px;
+       left: 1000px;
+        float: right;
+    }
+    .container3{
+        display: flex;
+        justify-content: space-around;
+       height: 300px;
+       width: 900px;
+       margin-bottom: 100px;
+       
+    }
+    
+    
+    .bigdiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    
+        height: 350px;
+        width: 400px;
+        /* border: 2px solid red; */
+    }
+
+    .bigdiv h1{
+        align-self: center;
+    }
+    .c{
+        
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;  
+        border: 15px solid rgb(214, 128, 57);
+    }
+    .bigdiv .u{
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+        border: 25px solid green;
+        /* box-shadow: 10px 10px 10px 10px; */
+        box-shadow: 0 0 0 13px #65e175;
+        box-shadow: 0 0 0 23px #93e99f;
+    
+    }
+
+
+    .bigdiv i{
+        font-size: 58px;
+    }
+    .bigdiv .u i{
+        font-size: 85px;
+    }
+    .bigdiv .c i{
+        font-size: 65px;
+    }
+    #smalldiv{
+        align-self: center;
+    }
+    #smalldiv{
+        align-self: center;
+    }
+    #replay,#nxt,#rbtn{
+        height: 55px;
+        width: 100px;
+        border-radius: 8px;
+        font-size: 20px;
+        background-color: rgb(152, 240, 155);
+        border: 1px solid white;
+        color: white;
+       
+    }
+    #rbtn:hover{
+        background-color: green;
+    }
+    #replay:hover{
+        background-color: green;
+    }
+    #nxt:hover{
+        background-color: green;
+    }
+    .bigdiv h1{
+        font-size: 35px;
+    }
+    #h{
+        font-size: 80px;
+    }
+    
+    
+}
